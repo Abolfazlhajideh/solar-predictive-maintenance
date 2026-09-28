@@ -144,5 +144,3 @@ Machine-learning predictions must be interpreted as possible abnormal patterns o
 - Maintenance reports
 
 ### License
-
-An MIT License may be suitable for an educational portfolio, subject to the author's intended use.
