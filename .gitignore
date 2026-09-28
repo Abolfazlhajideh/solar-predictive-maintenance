@@ -1,0 +1,43 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Generated data
+data/raw/*
+data/processed/*
+results/charts/*
+results/reports/*
+results/exports/*
+models/*
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/charts/.gitkeep
+!results/reports/.gitkeep
+!results/exports/.gitkeep
+!models/.gitkeep
+
+# IDE
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
